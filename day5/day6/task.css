@@ -1,0 +1,25 @@
+div{
+    border: 30px solid rgb(3, 3, 97);
+    background-color: rgb(118, 118, 244);
+    height: 500px;
+    width: 500px;
+    min-height: 450px;
+    min-height: 450px;
+    max-height: 510px;
+    max-width: 510px;
+    padding-top: 200px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* padding: 100px 100px 100px 100px; */
+}
+#d, h1, p,aside{
+    text-align: center;
+    
+}
+div{
+    margin: 200px;
+}
+/* h{
+    color: rgb(114, 114, 248);
+} */

@@ -1,0 +1,73 @@
+*{
+    padding: 0%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.navContainer{
+    /* border: 2px solid red; */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(165deg,rgba(0, 0, 255, 0.381), rgb(217, 24, 130), rgb(129, 33, 87));
+}
+.nav1{
+    /* border: 2px solid blue; */
+    height: 120px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.logo{
+    /* border: 2px solid green; */
+    width:20%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1 a{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    /* border: 2px solid yellow; */
+    width: 70%;
+    height: inherit;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.info ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+.info ul li{
+    list-style: none;
+   
+}
+.info ul a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: all;
+    border-radius: 10px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s; 
+}
+.info ul li a:hover{
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+}

@@ -1,0 +1,27 @@
+/* decndent
+ section div p{
+    color: rgb(68, 139, 201);
+    background-color: rgb(19, 227, 227);
+} */
+
+
+
+/* it only targets first para
+adjacent */
+/* section+p,h3{
+    color: rgb(6, 40, 69);
+    background-color: rgb(126, 236, 236);
+} */
+
+/* general */
+/* section~p,h3{
+    color: rgb(6, 40, 69);
+    background-color: rgb(126, 236, 236);
+} */
+
+/* 
+child
+section>div{
+    color: rgb(68, 139, 201);
+    background-color: rgb(19, 227, 227);
+} */
